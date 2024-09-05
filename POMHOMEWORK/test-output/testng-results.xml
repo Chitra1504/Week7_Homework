@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-05T16:56:02 IST" name="Suite" finished-at="2024-09-05T16:56:32 IST" duration-ms="30398">
+    <groups>
+    </groups>
+    <test started-at="2024-09-05T16:56:02 IST" name="Test" finished-at="2024-09-05T16:56:32 IST" duration-ms="30398">
+      <class name="runner.TC_001_Login">
+        <test-method is-config="true" signature="preCondition()[pri:0, instance:runner.TC_001_Login@73e9cf30]" started-at="2024-09-05T16:56:02 IST" name="preCondition" finished-at="2024-09-05T16:56:09 IST" duration-ms="7775" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="runners()[pri:0, instance:runner.TC_001_Login@73e9cf30]" started-at="2024-09-05T16:56:09 IST" name="runners" finished-at="2024-09-05T16:56:12 IST" duration-ms="2960" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runners -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:runner.TC_001_Login@73e9cf30]" started-at="2024-09-05T16:56:12 IST" name="postCondition" finished-at="2024-09-05T16:56:13 IST" duration-ms="330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- runner.TC_001_Login -->
+      <class name="runner.TC_003_Account_Creation">
+        <test-method is-config="true" signature="set()[pri:0, instance:runner.TC_003_Account_Creation@7526515b]" started-at="2024-09-05T16:56:02 IST" name="set" finished-at="2024-09-05T16:56:02 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method is-config="true" signature="preCondition()[pri:0, instance:runner.TC_003_Account_Creation@7526515b]" started-at="2024-09-05T16:56:15 IST" name="preCondition" finished-at="2024-09-05T16:56:21 IST" duration-ms="6055" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="runners(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:runner.TC_003_Account_Creation@7526515b]" started-at="2024-09-05T16:56:21 IST" name="runners" data-provider="getData" finished-at="2024-09-05T16:56:32 IST" duration-ms="11040" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ChitraRam]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Selenium Automation]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[LeafTaps]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runners -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:runner.TC_003_Account_Creation@7526515b]" started-at="2024-09-05T16:56:32 IST" name="postCondition" finished-at="2024-09-05T16:56:32 IST" duration-ms="289" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- runner.TC_003_Account_Creation -->
+      <class name="runner.TC_002_Logout">
+        <test-method is-config="true" signature="preCondition()[pri:0, instance:runner.TC_002_Logout@644baf4a]" started-at="2024-09-05T16:56:02 IST" name="preCondition" finished-at="2024-09-05T16:56:09 IST" duration-ms="7687" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="runners()[pri:0, instance:runner.TC_002_Logout@644baf4a]" started-at="2024-09-05T16:56:09 IST" name="runners" finished-at="2024-09-05T16:56:13 IST" duration-ms="3322" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runners -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:runner.TC_002_Logout@644baf4a]" started-at="2024-09-05T16:56:13 IST" name="postCondition" finished-at="2024-09-05T16:56:13 IST" duration-ms="301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- runner.TC_002_Logout -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
